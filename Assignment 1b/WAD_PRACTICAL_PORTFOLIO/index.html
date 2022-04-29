@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Sudarshan - Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+   
+  <!-- website icon -->
+  <link rel="icon" href="data:image/jpeg;base64,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" type="image/gif" sizes="any">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/imag1.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Sudarshan Maskare</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+      
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Sudarshan Maskare</h1>
+      <p>I'm <span class="typed" data-typed-items="Competitive Coder, Developer, Freelancer, Cricketer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>He is a talented , ambitious and Hardworking individual , with broad skills. He is adept at handling multiple tasks
+            competently and at working well under pressure.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/imag1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Competitive Programmer and Developer.</h3>
+            <p class="font-italic">
+              Deeply interested in Datastructures and Algorithms . Exploring the development domain.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> XXX XXX XXXX</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> City : Akot, Maharashtra</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> BE (Information Technology)</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> sudarshanmaskare@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              -XXXXXXXXXXXXXXXXXXXXXXX----------------Code Gladiator(Techgig) and Flipkart grid Finalist(2021).
+              Secured 31st(among 1120) rank in IIT Madras Cricket hackathon.-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx--------
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+   
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">C++ <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Java <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">MYSQL <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Sudarshan Maskare</h4>
+              <p><em>Innovative and deadline-driven Programmer.</em></p>
+              <ul>
+                <li>Akot , Maharashtra</li>
+                <li>(+91) XXX XXX XXXX</li>
+                <li>Sudarshanmaskare@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of engineering (Information Technology)</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Pune institute of Computer Technology , Pune</em></p>
+              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            </div>
+            <div class="resume-item">
+              <h4>Higher School</h4>
+              <h5>2017 - 2019</h5>
+              <p><em>LBSD,Akot</em></p>
+              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Developer</h4>
+              <h5>2019 - Present</h5>
+              <p><em>PICT, pune </em></p>
+              <ul>
+                <li>Lead in the design, development, and implementation of the graphic.</li>
+                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                <li>Oversee the efficient use of project.</li>
+              </ul>
+            </div>
+            <!-- <div class="resume-item">
+              <h4>Graphic design specialist</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul>
+            </div> -->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>Akot,Maharashtra</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>Sudarshanmaskare@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 XXX XXX XXXX</p>
+              </div>
+
+              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="https://formspree.io/f/xayvezdg" method="POST" id="my-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate"></div>
+              </div>
+             
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+    <script>
+      var form = document.getElementById("my-form");
+      
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+              'Accept': 'application/json'
+          }
+        }).then(response => {
+          if (response.ok) {
+            status.innerHTML = "Thanks for your submission!";
+            form.reset()
+          } else {
+            response.json().then(data => {
+              if (Object.hasOwn(data, 'errors')) {
+                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+              } else {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+              }
+            })
+          }
+        }).catch(error => {
+          status.innerHTML = "Oops! There was a problem submitting your form"
+        });
+      }
+      form.addEventListener("submit", handleSubmit)
+  </script>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Sudarshan Maskare</span></strong>
+      </div>
+      <div class="credits">
+       Designed by <a href="#">Sudarshan Maskare</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
